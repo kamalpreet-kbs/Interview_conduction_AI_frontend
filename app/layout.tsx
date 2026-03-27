@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'AI Interview Assistant - Voice-Powered Interviews',
-  description: 'Experience seamless, hands-free voice interviews powered by AI with real-time speech recognition',
+  title: 'ELARA AI - Voice-Powered Interviews',
+  description: 'Experience seamless, hands-free voice interviews with ELARA AI, featuring real-time speech recognition',
   generator: 'v0.app',
   icons: {
     icon: [
