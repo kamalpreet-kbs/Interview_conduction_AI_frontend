@@ -43,7 +43,7 @@ export default function LandingPage() {
       formData.append('resume', resumeFile)
       formData.append('job_description', jdFile)
 
-      const response = await fetch('http://localhost:8001/init', {
+      const response = await fetch('https://elara.kindlebit.org/init', {
         method: 'POST',
         body: formData,
       })

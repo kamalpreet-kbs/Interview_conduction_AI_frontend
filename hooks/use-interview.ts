@@ -11,7 +11,7 @@ interface UseInterviewProps {
   initialThreadId?: string
 }
 
-export function useInterview({ resumeFile, jdFile, backendUrl = 'http://localhost:8001', initialThreadId = '' }: UseInterviewProps) {
+export function useInterview({ resumeFile, jdFile, backendUrl = 'https://elara.kindlebit.org', initialThreadId = '' }: UseInterviewProps) {
   const [status, setStatus] = useState<InterviewStatus>('idle')
   const [threadId, setThreadId] = useState<string>(initialThreadId)
 
